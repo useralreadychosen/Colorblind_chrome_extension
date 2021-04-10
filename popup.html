@@ -6,20 +6,27 @@
         <title>Popup</title>
     </head>
 
-    <body>
+    <body text="#ffffff" bgcolor="#000000">
 
 
         <!-- MAKE THIS LOOK PRETTY :) -->
-        <h1>Select</h1>
-        
-        <input type="radio" id="red-green" name="options" value="red-green">
-        <label for="red-green">Red-Green</label><br>
-        <input type="radio" id="blue-yellow" name="options" value="blue-yellow">
-        <label for="blue-yellow">Blue-Yellow</label><br>
-        <input type="radio" id="invert" name="options" value="invert">
-        <label for="invert">Invert</label><br>
-        <!-- <input type="radio" id="none" name="options" value="none">
-        <label for="none">None</label> -->
+        <h1>Welcome to the Color-Blind Friend</h1>
+        <p style="width: 450px;">This extension allows you to change color schemes of a website based on your personal needs. </p>
+        <br/>
+           The options are also suited to customize websites for the three main types of color blindness respectively: red-green, blue-yellow, and complete color blindness. 
+        </p>
+
+        <div style="position: relative; top: 50%; left: 50;">
+            <input type="radio" id="red-green" name="options" value="red-green">
+            <label for="red-green">Red-Green</label><br>
+            <input type="radio" id="blue-yellow" name="options" value="blue-yellow">
+            <label for="blue-yellow">Blue-Yellow</label><br>
+            <input type="radio" id="invert" name="options" value="invert">
+            <label for="invert">Invert (for complete color blindness)</label><br>
+            <!-- <input type="radio" id="none" name="options" value="none">
+            <label for="none">None</label> -->
+        </div>
+        <p>Refresh the page to reset the colors :)</p>
 
         <script src="options.js"></script>
     </body>
